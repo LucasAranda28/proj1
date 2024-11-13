@@ -1,0 +1,11 @@
+@media (max-width: 600px) {
+    body{
+        background-color: red;
+    }
+    main{
+        .seccion-principal{
+            display: block;
+        }
+    }
+    /* Estilos para pantallas de 600px o menos */
+  }
