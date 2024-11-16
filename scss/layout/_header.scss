@@ -1,23 +1,50 @@
 .collapse{
     margin-left: 30px;
-    border: 2px solid #00ff15;
+    // border: 2px solid #00ff15;
 }
 .encabezado{
-    background-color: #702CF6;
+    background-color: hsl(260, 92%, 57%);
     margin: 15px 0px;
     align-items: center;
     text-align: center;
-    /* border: 2px solid red; */
+    width: 100%;
 }
 .fondo-principal {
     height: 400px;
-    /* margin: 10px 0px; */
+    margin: 10px 0px;
     background-image: url(../img/fondo-principal.webp);
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 header{
-    border: 1px solid rgb(24, 170, 180);
-
+    // border: 5px solid rgb(24, 170, 180);
+    display:block;
+    div{
+        // display: block;
+        align-items: center;
+        nav{
+            border: 2px solid red;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            div{
+                border: 2px solid blue;
+                display: block;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                display: flex;
+            flex-direction: row;
+                div{
+                    border: 2px solid greenyellow;
+                    display: block;
+                    align-items: center;
+                text-align: center;
+                justify-content: center;
+                }
+            }
+        }
+    }
 }

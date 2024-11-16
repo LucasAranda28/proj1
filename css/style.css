@@ -1,19 +1,18 @@
 .collapse {
   margin-left: 30px;
-  border: 2px solid #00ff15;
 }
 
 .encabezado {
-  background-color: #702CF6;
+  background-color: hsl(260, 92%, 57%);
   margin: 15px 0px;
   align-items: center;
   text-align: center;
-  /* border: 2px solid red; */
+  width: 100%;
 }
 
 .fondo-principal {
   height: 400px;
-  /* margin: 10px 0px; */
+  margin: 10px 0px;
   background-image: url(../img/fondo-principal.webp);
   background-size: cover;
   background-position: center;
@@ -21,7 +20,33 @@
 }
 
 header {
-  border: 1px solid rgb(24, 170, 180);
+  display: block;
+}
+header div {
+  align-items: center;
+}
+header div nav {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+header div nav div {
+  border: 2px solid blue;
+  display: block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+header div nav div div {
+  border: 2px solid greenyellow;
+  display: block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 * {
@@ -44,20 +69,28 @@ body {
 
 .item-01 {
   /* border: 3px solid red; */
-  background-color: gray;
+  background-color: rgb(15, 35, 150);
   border-radius: 5px;
   grid-column: 1/2;
   grid-row: 1/5;
-  padding: 30px 30px;
+  padding: 0px 0px;
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
+  text-decoration: none;
+  border: 2px solid greenyellow;
+}
+.item-01 ul {
+  list-style-type: none;
+  text-align: start;
+  align-items: center;
+  justify-content: center;
 }
 
 .lista {
   text-decoration: none;
   color: black;
-  /* border: 1px solid red; */
+  list-style-type: none;
 }
 
 .item-02 {
@@ -83,6 +116,7 @@ body {
 }
 
 .titulo-principal {
+  padding: 15px 40px;
   padding: 15px 40px;
 }
 

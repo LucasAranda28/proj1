@@ -6,22 +6,34 @@
     grid-template-rows: repeat(4,200px);
     gap: 35px;
     margin:20px;
+    
 }
 .item-01{
     /* border: 3px solid red; */
-    background-color:gray;
+    background-color:rgb(15, 35, 150);
     border-radius: 5px;
     grid-column: 1/2;
     grid-row: 1/5;
-    padding: 30px 30px;
+    padding: 0px 0px;
     font-size:large;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    text-decoration: none;    
+    border: 2px solid greenyellow;
+    ul{
+        list-style-type: none;
+        text-align:start;
+        align-items: center;
+        justify-content: center;
+        
+    }
 }
 .lista{
     text-decoration: none;
     color: black;
-    /* border: 1px solid red; */
+    list-style-type: none;
+    // border: 1px solid red;
+    
 }
 .item-02{
     /* border: 3px solid red; */
@@ -43,6 +55,7 @@
     color: aliceblue;
 }
 .titulo-principal{
+    padding: 15px 40px;
     padding: 15px 40px;
 }
 .sub-titulo{
