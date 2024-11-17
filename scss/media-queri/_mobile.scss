@@ -7,5 +7,20 @@
             display: block;
         }
     }
+    header{
+        .contenedor-header{
+            justify-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .navbar-toggler{
+            
+        }
+    }
+    main{
+        .contenedor-titulo{
+            justify-items: center;
+        }
+    }
     /* Estilos para pantallas de 600px o menos */
-  }
+}
