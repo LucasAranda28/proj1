@@ -1,50 +1,74 @@
-.collapse{
-    margin-left: 30px;
-    // border: 2px solid #00ff15;
+*{
+    margin:0px;
+    padding: 0px;
 }
-.encabezado{
-    background-color: hsl(260, 92%, 57%);
-    margin: 15px 0px;
+.collapse {
+    margin-left: 60px;
+    border: 2px solid #00ff15;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    width: 100%;
 }
 .fondo-principal {
     height: 400px;
-    margin: 10px 0px;
+    margin: 120px 0px;
     background-image: url(../img/fondo-principal.webp);
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-header{
-    // border: 5px solid rgb(24, 170, 180);
-    display:block;
-    div{
-        // display: block;
-        align-items: center;
-        nav{
-            border: 2px solid red;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
+// header{
+//     // border: 5px solid rgb(24, 170, 180);
+//     display:block;
+//     div{
+//         // display: block;
+//         align-items: center;
+//         nav{
+//             border: 2px solid red;
+//             display: flex;
+//             flex-direction: row;
+//             justify-content: center;
+//             align-items: center;
+//             div{
+//                 border: 2px solid blue;
+//                 display: block;
+//                 align-items: center;
+//                 text-align: center;
+//                 justify-content: center;
+//                 display: flex;
+//             flex-direction: row;
+//                 div{
+//                     border: 2px solid greenyellow;
+//                     display: block;
+//                     align-items: center;
+//                 text-align: center;
+//                 justify-content: center;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+header {
+    .contenedor-header {
+        display: block;
+        background-color: hsla(260, 92%, 57%, 0.637);
+        .bloque-header {
+            background-color: hwb(56 4% 6%);
+            //centrado horizontal
+            justify-items: center;
             align-items: center;
-            div{
-                border: 2px solid blue;
-                display: block;
-                align-items: center;
-                text-align: center;
-                justify-content: center;
-                display: flex;
-            flex-direction: row;
-                div{
-                    border: 2px solid greenyellow;
-                    display: block;
-                    align-items: center;
-                text-align: center;
-                justify-content: center;
-                }
-            }
+            width: 100%;
+            border-bottom: 3px solid black;
         }
+        .bloque-logo {
+            display: block;
+            .Mi-logo{
+                margin: 1px;
+            }
+    }
+    .bloque-nav{
+        background-color: #00ff15;
+    }
     }
 }
+

@@ -1,54 +1,41 @@
-.collapse {
-  margin-left: 30px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.encabezado {
-  background-color: hsl(260, 92%, 57%);
-  margin: 15px 0px;
+.collapse {
+  margin-left: 60px;
+  border: 2px solid #00ff15;
+  justify-content: center;
   align-items: center;
-  text-align: center;
-  width: 100%;
 }
 
 .fondo-principal {
   height: 400px;
-  margin: 10px 0px;
+  margin: 120px 0px;
   background-image: url(../img/fondo-principal.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-header {
+header .contenedor-header {
+  display: block;
+  background-color: hsla(260, 92%, 57%, 0.637);
+}
+header .contenedor-header .bloque-header {
+  background-color: hsl(56, 91.8367346939%, 49%);
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 3px solid black;
+}
+header .contenedor-header .bloque-logo {
   display: block;
 }
-header div {
-  align-items: center;
+header .contenedor-header .bloque-logo .Mi-logo {
+  margin: 1px;
 }
-header div nav {
-  border: 2px solid red;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-header div nav div {
-  border: 2px solid blue;
-  display: block;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-}
-header div nav div div {
-  border: 2px solid greenyellow;
-  display: block;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-}
-
 * {
   margin: 0px;
   padding: 0px;
