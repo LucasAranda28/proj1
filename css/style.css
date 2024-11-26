@@ -55,6 +55,24 @@ body {
   background-color: whitesmoke;
 }
 
+.contenedor-titulo {
+  background-color: #535353;
+  color: aliceblue;
+}
+.contenedor-titulo .titulo-principal {
+  padding: 15px 40px;
+  color: violet;
+}
+.contenedor-titulo .titulo-principal span {
+  color: yellow;
+}
+.contenedor-titulo .sub-titulo {
+  padding: 15px 40px;
+  color: #c6d66a;
+  font-weight: 500;
+  font-size: large;
+}
+
 .seccion-principal {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -62,8 +80,7 @@ body {
   gap: 35px;
   margin: 40px;
 }
-
-.banner {
+.seccion-principal .banner {
   display: flex;
   justify-content: center;
   background-color: rgba(120, 121, 126, 0.986);
@@ -75,62 +92,54 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: whitesmoke;
 }
-.banner ul {
+.seccion-principal .banner ul {
   list-style-type: none;
   border: 2px solid green;
   justify-items: center;
 }
-.banner ul li {
+.seccion-principal .banner ul li {
   border: 2px solid red;
   margin: 5px;
 }
-.banner ul li a {
+.seccion-principal .banner ul li a {
   text-decoration: none;
   color: whitesmoke;
   border: 2px solid yellow;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-.ofertas {
+.seccion-principal .ofertas {
   /* border: 3px solid red; */
   grid-column: 2/5;
   grid-row: 1/3;
-  display: flexbox;
-  background-color: gray;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
   border-radius: 5px;
 }
-
-.otros-productos {
+.seccion-principal .ofertas .card {
+  background-size: cover;
+  background-position: center center;
+  border: 4px solid purple;
+}
+.seccion-principal .ofertas .card .texto {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.seccion-principal .ofertas .card .texto p {
+  color: rebeccapurple;
+  font-size: large;
+  font-weight: 400;
+}
+.seccion-principal .otros-productos {
   /* border: 3px solid red; */
   grid-column: 2/5;
   grid-row: 3/5;
   background-color: gray;
   border-radius: 5px;
-}
-
-.titulo-principal {
-  padding: 15px 40px;
-  padding: 15px 40px;
-}
-
-.sub-titulo {
-  padding: 15px 40px;
-}
-
-.contenedor-titulo {
-  background-color: #535353;
-  color: aliceblue;
-}
-.contenedor-titulo h1 {
-  color: violet;
-}
-.contenedor-titulo h1 span {
-  color: yellow;
-}
-.contenedor-titulo p {
-  color: #c6d66a;
-  font-weight: 500;
-  font-size: large;
 }
 
 @media (max-width: 600px) {
