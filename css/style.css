@@ -70,21 +70,21 @@ body p {
 }
 
 .contenedor-titulo {
-  background-color: #535353;
+  background-color: black;
   color: aliceblue;
 }
 .contenedor-titulo .titulo-principal {
   padding: 15px 40px;
-  color: white;
+  color: blueviolet;
 }
 .contenedor-titulo .titulo-principal span {
   color: yellow;
 }
 .contenedor-titulo .sub-titulo {
   padding: 15px 40px;
-  color: #c6d66a;
+  color: white;
   font-weight: 500;
-  font-size: large;
+  font-size: x-large;
 }
 
 .seccion-principal {
@@ -293,12 +293,12 @@ footer .datos-contacto .card-footer-seguinos {
 }
 
 .contenedor-titulo-pagesec {
-  background-color: #535353;
+  background-color: black;
   margin-top: 200px;
 }
 .contenedor-titulo-pagesec .titulo-principal-sec {
   padding: 15px 40px;
-  color: white;
+  color: blueviolet;
 }
 .contenedor-titulo-pagesec .titulo-principal-sec span {
   color: yellow;
@@ -325,6 +325,44 @@ footer .datos-contacto .card-footer-seguinos {
 .sobrenos p span {
   color: blueviolet;
   font-weight: bolder;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.seccion-contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+.seccion-contacto .contenedor-contacto {
+  margin: 45px 45px;
+  height: 100%;
+  display: block;
+}
+.seccion-contacto .contenedor-contacto .contenedor-wa {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 35px;
+  padding: 20px;
+  background-color: white;
+}
+.seccion-contacto .contenedor-contacto .contenedor-tel {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 35px;
+  padding: 20px;
+  background-color: white;
+}
+.seccion-contacto .contenedor-contacto .contenedor-email {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 35px;
+  padding: 20px;
+  background-color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,12 +1,31 @@
-*{
-    margin:0px;
-    padding:0px;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-.seccion-contacto{
+.seccion-contacto {
     display: flex;
-    background-color: red;
-    .contenedor-contacto{
+    align-items: center;
+    justify-content: center;
+    margin:50px;
+
+    .contenedor-contacto {
+        margin: 45px 45px; 
+        height: 100%;
+        display: block;
+        
+
+        .contenedor-wa {
+            @include card;
+        }
+
+        .contenedor-tel {
+            @include card;
+        }
+
+        .contenedor-email {
+            @include card;
+        }
 
     }
 
