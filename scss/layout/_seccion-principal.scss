@@ -1,5 +1,9 @@
 @import "../utilities/variables";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 .contenedor-titulo {
     background-color: #535353;
@@ -25,77 +29,98 @@
 .seccion-principal {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 200px);
+    grid-template-rows: repeat(4, 400px);
     gap: 35px;
     margin: 40px;
 
     .banner {
-        display: flex;
-        justify-content: center;
-        background-color: rgba(120, 121, 126, 0.986);
-        border-radius: 5px;
+        display: grid;
         grid-column: 1/2;
         grid-row: 1/5;
-        padding: 30px 0px;
-        font-size: large;
+        //background-color: rgba(120, 121, 126, 0.986);
+        border: 2px solid black;
+        border-radius: 15px;
         font-family: Arial, Helvetica, sans-serif;
         color: whitesmoke;
+        //text-align: center;
 
         ul {
+            margin: 0px;
+            padding: 0px;
             list-style-type: none;
-            border: 2px solid green;
-            justify-items: center;
+            text-align: center;
 
             li {
-                border: 2px solid red;
-                margin: 5px;
+                margin: 25px;
 
                 a {
                     text-decoration: none;
-                    color: whitesmoke;
-                    border: 2px solid yellow;
-                    font-family: Arial, Helvetica, sans-serif;
+                    color: black;
+                    font-size: 1.3rem;
+                    font-weight: 510;
                 }
             }
         }
     }
 
     .ofertas {
-        /* border: 3px solid red; */
+        display: grid;
         grid-column: 2/5;
         grid-row: 1/3;
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
-        padding: 10px;
-        //background-color: gray;
-        border-radius: 5px;
 
         .card {
-            background-size: cover;
+            background-size: 500px;
             background-position: center center;
-            border: 4px solid purple;
-        
-        .texto{
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            padding: 10px;
-            p{
-                color: rebeccapurple;
-                font-size: large;
-                font-weight: 400;
+            border: 2px solid purple;
+            border-radius: 15px;
+
+            .texto {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 15px;
+                color: black;
+                -webkit-text-stroke: 0.2px white;
+                font-size: 3rem;
+
+                p {
+                    color: rebeccapurple;
+                    -webkit-text-stroke: 0.2px gray;
+                    font-size: large;
+                    font-weight: 600;
+                }
             }
         }
     }
-    }
 
     .otros-productos {
-        /* border: 3px solid red; */
+        display: grid;
         grid-column: 2/5;
         grid-row: 3/5;
-        background-color: gray;
-        border-radius: 5px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        border-radius: 2px;
+        gap: 30px;
+        .card {
+            background-size: 1200px;
+            background-position: center center;
+            border: 2px solid purple;
+            border-radius: 15px;
+            .texto{
+                margin: 25px;
+                color: black;
+                //font-weight: bolder;
+                p{
+                color: black;
+                -webkit-text-stroke: 0.1px gray;
+                font-weight: bold;
+
+                }
+                
+            }
     }
+}
 }
