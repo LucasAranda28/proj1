@@ -8,15 +8,6 @@
   align-items: center;
 }
 
-.fondo-principal {
-  height: 400px;
-  margin: 215px 0px 0px 0px;
-  background-image: url(../img/fondo-principal.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 header .contenedor-header {
   background-color: rgba(245, 245, 245, 0.719);
   justify-content: center;
@@ -67,6 +58,15 @@ body p {
 * {
   margin: 0px;
   padding: 0px;
+}
+
+.fondo-principal {
+  height: 400px;
+  margin: 215px 0px 0px 0px;
+  background-image: url(../img/fondo-principal.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .contenedor-titulo {
@@ -192,6 +192,139 @@ body p {
 * {
   margin: 0px;
   padding: 0px;
+}
+
+footer {
+  display: block;
+  border-top: 3px solid black;
+}
+footer .info-footer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 40px 200px;
+}
+footer .info-footer h6 {
+  font-weight: bolder;
+}
+footer .info-footer a {
+  color: blueviolet;
+  font-weight: bold;
+}
+footer .datos-contacto {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  background-color: black;
+  padding: 15px;
+}
+footer .datos-contacto h5 {
+  color: blueviolet;
+  padding: 15px 0px;
+}
+footer .datos-contacto .card-footer-nosotros {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+footer .datos-contacto .card-footer-nosotros ul {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  justify-content: start;
+}
+footer .datos-contacto .card-footer-nosotros ul li {
+  list-style-type: none;
+  padding: 5px;
+}
+footer .datos-contacto .card-footer-nosotros ul li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+footer .datos-contacto .card-footer-informacion {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+footer .datos-contacto .card-footer-informacion ul {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  justify-content: start;
+}
+footer .datos-contacto .card-footer-informacion ul li {
+  list-style-type: none;
+  padding: 5px;
+}
+footer .datos-contacto .card-footer-informacion ul li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+footer .datos-contacto .card-footer-ayuda {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+footer .datos-contacto .card-footer-ayuda ul {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  justify-content: start;
+}
+footer .datos-contacto .card-footer-ayuda ul li {
+  list-style-type: none;
+  padding: 5px;
+}
+footer .datos-contacto .card-footer-ayuda ul li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+footer .datos-contacto .card-footer-ayuda .boton-ayuda a {
+  background-color: yellow;
+  text-decoration: none;
+  border: 2px solid white;
+  color: black;
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 10px 0px;
+  text-align: center;
+  display: block;
+}
+footer .datos-contacto .card-footer-seguinos {
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+
+.contenedor-titulo-pagesec {
+  background-color: #535353;
+  margin-top: 200px;
+}
+.contenedor-titulo-pagesec .titulo-principal-sec {
+  padding: 15px 40px;
+  color: white;
+}
+.contenedor-titulo-pagesec .titulo-principal-sec span {
+  color: yellow;
+}
+.contenedor-titulo-pagesec .sub-titulo {
+  padding: 15px 40px;
+  color: #c6d66a;
+  font-weight: 500;
+  font-size: large;
+}
+
+.sobrenos {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+.sobrenos img {
+  height: 350px;
+}
+.sobrenos p {
+  padding: 100px;
+  font-size: large;
+}
+.sobrenos p span {
+  color: blueviolet;
+  font-weight: bolder;
 }
 
 /*# sourceMappingURL=style.css.map */

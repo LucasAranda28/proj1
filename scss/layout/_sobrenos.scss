@@ -1,0 +1,16 @@
+.sobrenos{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    img{
+        height: 350px;
+    }
+    p{
+        padding: 100px;
+        font-size: large;
+        span{
+            color: blueviolet;
+            font-weight: bolder;
+        }
+    }
+}

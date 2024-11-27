@@ -1,24 +1,20 @@
 @import "../utilities/variables";
-*{
+
+* {
     margin: 0px;
     padding: 0px;
 }
+
 .collapse {
     justify-content: center;
     align-items: center;
 }
-.fondo-principal {
-    height: 400px;
-    margin: 215px 0px 0px 0px;
-    background-image: url(../img/fondo-principal.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
 header {
     .contenedor-header {
         background-color: rgba(245, 245, 245, 0.719);
         justify-content: center;
+
         .bloque-header {
             background-color: hwb(56 4% 6%);
             display: flex;
@@ -28,27 +24,30 @@ header {
             //width: 100%;
             border-bottom: 2px solid black;
             height: 100%;
-            p{
+
+            p {
                 margin: 0px;
             }
-            
+
         }
+
         .bloque-logo {
             display: block;
             padding: 20px 50px;
             border-bottom: 3px solid black;
-            
+
         }
-    .bloque-nav{
-        //background-color: #00ff15;
-        margin: 0px 0px 0px 140px;
-        width: 80%;
-        justify-content: center;
-        a{
-            color: black;
-            font-weight: 600;
+
+        .bloque-nav {
+            //background-color: #00ff15;
+            margin: 0px 0px 0px 140px;
+            width: 80%;
+            justify-content: center;
+
+            a {
+                color: black;
+                font-weight: 600;
+            }
         }
-    }
     }
 }
-

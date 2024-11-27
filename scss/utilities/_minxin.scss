@@ -1,7 +1,27 @@
-@mixin botones{
+@mixin botones {
     background-color: yellow;
     text-decoration: none;
+    border: 2px solid white;
     color: black;
-    border-radius: 20px;
-    padding:10px 25px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    text-align: center;
+    display: block;
+}
+
+@mixin listado-footer {
+    ul {
+        margin: 0px;
+        padding: 0px;
+        display: block;
+        justify-content: start;
+        li { list-style-type: none;
+            padding: 5px;
+            a {
+                color: aliceblue;
+                text-decoration: none;
+            }
+        }
+    }
 }

@@ -1,0 +1,20 @@
+.contenedor-titulo-pagesec {
+    background-color: #535353;
+    margin-top: 200px;
+
+    .titulo-principal-sec {
+        padding: 15px 40px;
+        color: $color-titulo;
+
+        span {
+            color: yellow;
+        }
+    }
+
+    .sub-titulo {
+        padding: 15px 40px;
+        color: #c6d66a;
+        font-weight: 500;
+        font-size: large;
+    }
+}

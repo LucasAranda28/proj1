@@ -5,6 +5,15 @@
     padding: 0px;
 }
 
+.fondo-principal {
+    height: 400px;
+    margin: 215px 0px 0px 0px;
+    background-image: url(../img/fondo-principal.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .contenedor-titulo {
     background-color: #535353;
     color: aliceblue;
@@ -104,23 +113,26 @@
         grid-template-rows: repeat(3, 1fr);
         border-radius: 2px;
         gap: 30px;
+
         .card {
             background-size: 1200px;
             background-position: center center;
             border: 2px solid purple;
             border-radius: 15px;
-            .texto{
+
+            .texto {
                 margin: 25px;
                 color: black;
+
                 //font-weight: bolder;
-                p{
-                color: black;
-                -webkit-text-stroke: 0.1px gray;
-                font-weight: bold;
+                p {
+                    color: black;
+                    -webkit-text-stroke: 0.1px gray;
+                    font-weight: bold;
 
                 }
-                
+
             }
+        }
     }
-}
 }
