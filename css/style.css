@@ -8,6 +8,14 @@
   align-items: center;
 }
 
+header .bloque-logo img {
+  width: 200px;
+  height: auto;
+  transition: transform 2s ease;
+}
+header .bloque-logo img:hover {
+  transform: scale(1.2);
+}
 header .contenedor-header {
   background-color: rgba(245, 245, 245, 0.719);
   justify-content: center;
@@ -183,18 +191,55 @@ body .logo-fijo {
 
 @media (max-width: 600px) {
   body {
-    background-color: red;
+    background-color: white;
   }
-  main .seccion-principal {
-    display: block;
+  body * {
+    margin: 0px;
+    padding: 0px;
   }
-  header .contenedor-header {
+  body header .contenedor-header {
     justify-items: center;
     justify-content: center;
     text-align: center;
+    font-size: 12px;
+    margin: 0px;
   }
-  main .contenedor-titulo {
+  body main .seccion-principal {
+    display: block;
+  }
+  body main .contenedor-titulo {
     justify-items: center;
+  }
+  body footer .info-footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+    width: 425px;
+  }
+  body footer .info-footer div {
+    background-color: beige;
+    margin: 10px;
+    padding: 10px;
+    font-size: 10px;
+  }
+  body footer .info-footer div h6 {
+    padding: 10px;
+  }
+  body footer .info-footer div p {
+    padding: 10px;
+  }
+  body footer .info-footer div a {
+    padding: 10px;
+  }
+  body footer .datos-contacto div h5 {
+    font-size: 15px;
+  }
+  body footer .datos-contacto div ul li a {
+    font-size: 10px;
+  }
+  body footer .parrafo-footer {
+    font-size: 10px;
   }
   /* Estilos para pantallas de 600px o menos */
 }
@@ -204,7 +249,6 @@ body .logo-fijo {
 }
 
 footer {
-  display: block;
   border-top: 3px solid black;
 }
 footer .info-footer {
@@ -299,6 +343,12 @@ footer .datos-contacto .card-footer-ayuda .boton-ayuda a {
 footer .datos-contacto .card-footer-seguinos {
   grid-column: 4/5;
   grid-row: 1/2;
+}
+footer .parrafo-footer {
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+  color: white;
 }
 
 .contenedor-titulo-pagesec {

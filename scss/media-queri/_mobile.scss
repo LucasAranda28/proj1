@@ -1,23 +1,86 @@
 @media (max-width: 600px) {
-    body{
-        background-color: red;
-    }
-    main{
-        .seccion-principal{
-            display: block;
+    body {
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        background-color: white;
+
+        header {
+            .contenedor-header {
+                justify-items: center;
+                justify-content: center;
+                text-align: center;
+                font-size: 12px;
+                margin: 0px;
+            }
+        }
+
+        main {
+            .seccion-principal {
+                display: block;
+            }
+
+            .contenedor-titulo {
+                justify-items: center;
+            }
+        }
+
+        footer {
+
+            .info-footer {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                padding: 0px;
+                width: 425px;
+
+                div {
+                    background-color: beige;
+                    margin: 10px;
+                    padding: 10px;
+                    font-size: 10px;
+
+
+                    h6 {
+                        padding: 10px;
+                    }
+
+                    p {
+                        padding: 10px;
+                    }
+
+                    a {
+                        padding: 10px;
+                    }
+                }
+
+
+            }
+
+            .datos-contacto {
+                div {
+                    h5 {
+                        font-size: 15px;
+                    }
+
+                    ul {
+                        
+
+                        li {
+
+                            a {font-size: 10px;}
+                        }
+                    }
+                }
+
+            }
+            .parrafo-footer{
+                font-size: 10px;
+            }
         }
     }
-    header{
-        .contenedor-header{
-            justify-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-    }
-    main{
-        .contenedor-titulo{
-            justify-items: center;
-        }
-    }
+
     /* Estilos para pantallas de 600px o menos */
 }

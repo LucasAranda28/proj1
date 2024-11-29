@@ -4,7 +4,7 @@
 }
 
 footer {
-    display: block;
+    //display: block;
     border-top: 3px solid black;
     .info-footer{
         display: flex;
@@ -60,5 +60,11 @@ footer {
             grid-column: 4/5;
             grid-row: 1/2;
         }
+    }
+    .parrafo-footer{
+        padding: 20px;
+        text-align: center;
+        background-color: black;
+        color: white;
     }
 }

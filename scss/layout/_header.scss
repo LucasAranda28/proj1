@@ -11,6 +11,14 @@
 }
 
 header {
+    .bloque-logo img {
+        width: 200px;
+        height: auto;
+        transition: transform 2s ease;
+    }
+    .bloque-logo img:hover {
+        transform: scale(1.2);
+    }
     .contenedor-header {
         background-color: rgba(245, 245, 245, 0.719);
         justify-content: center;
