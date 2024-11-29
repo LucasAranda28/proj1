@@ -54,6 +54,15 @@ body h3 {
 body p {
   margin: 0px;
 }
+body .logo-fijo {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  width: 60px;
+  height: auto;
+  opacity: 0.8;
+}
 
 * {
   margin: 0px;
